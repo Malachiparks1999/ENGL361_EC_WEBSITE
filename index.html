@@ -4,8 +4,8 @@
 <head>
     <!-- META DATA PER LANGING PAGE-->
     <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="Landing Page">
+    <meta name="description" content="Navbar for entire site">
+    <meta name="keywords" content="Navigation">
     <meta name="author" content="Malachi Parks">
 
     <!-- ENSURE SCROLLING WORKS-->
@@ -23,14 +23,30 @@
 </head>
 
 <body>
-
-    <!-- SPLASH TEST -->
-    <!-- p-5 moves from side, my-5 adds spacing from top   -->
-    <div class="container-fluid p-5 bg-dark text-white">
-        <h1> THIS IS A TEST</h1>
-        <p> Test paragraph 1</p>
-        <p> Test paragraph 2</p>
-    </div>
+    <!-- Dark nav bar -->
+    <nav class="navbar navbar-expand-md px-5 bg-dark">
+        <!-- Logo -->
+        <a class="navbar-brand" href="assets/site-logo.png">
+            <img src="assets/site-logo.png" style="height:auto; width:50%" class="rounded-pill bg-dark">
+        </a>
+        <!-- Links -->
+        <div class="container d-flex justify-content-end">
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://google.com">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://google.com">SYLLABUS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://google.com">NIGHTLY THOUGHTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://google.com">LOCAL COMIC SHOPS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 </body>
 
