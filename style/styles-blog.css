@@ -1,11 +1,12 @@
 /* Ensure header has correct font and is larger than rest*/
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 /* Blog format with padding */
 .blog-post {
+  margin-top: 2rem;
   margin-bottom: 4rem;
   margin-left: 4rem;
 }
@@ -16,4 +17,9 @@
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
+}
+
+/*About me section*/
+.about-me {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
